@@ -34,7 +34,7 @@ class Intersect extends Point
     //Circle Intersection
     public function circleIntersect()
     {
-        $circle1 = new Point(array(-10,8),30);
+        $circle1 = new Point(array(10,20),10);
         $circle2 = new Point(array(14,-24),10);
 
         $result = Point::circleIntersection($circle1,$circle2);
